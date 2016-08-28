@@ -52,7 +52,7 @@ Revenge is a western-themed game where players battle against each other, puttin
 <img src="Revenge-Android-Screenshots/9.png" alt="hi" class="inline"/>
 <img src="Revenge-Android-Screenshots/10.png" alt="hi" class="inline"/>
 </br>
-<h3><b>Highscores (screenshot content is in bold)</b></br>
+<h3><b>Highscores (screenshot content is in bold)</b></br><br>
 <ul><li><b>Daily/General selection</b>,</li></br>
 <li><b>Top 100 Daily</b> + General (highlighted green if user),</li></br>
 <li><b>Top 100 General</b> + Daily,</li></br>
