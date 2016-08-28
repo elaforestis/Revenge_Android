@@ -53,11 +53,11 @@ Revenge is a western-themed game where players battle against each other, puttin
 <img src="Revenge-Android-Screenshots/10.png" alt="hi" class="inline"/>
 </br>
 <h3><b>Highscores (screenshot content is in bold)</b></br>
-<b>Daily/General selection</b>,</br>
-<b>Top 100 Daily</b> + General (highlighted green if user),</br>
-<b>Top 100 General</b> + Daily,</br>
-<b>Top Cities/Towns Daily</b> + General(green highlight = user's city/town) with their revenge percentages(algorithm that helps maintain balance between high and low populated cities/towns and counties on highscores),
-</br> <b>Other tab</b>: contains selection of county or town/city in order to view the top 100 players of that particular one (General + Daily)
+<ul><li><b>Daily/General selection</b>,</li></br>
+<li><b>Top 100 Daily</b> + General (highlighted green if user),</li></br>
+<li><b>Top 100 General</b> + Daily,</li></br>
+<li><b>Top Cities/Towns Daily</b> + General(green highlight = user's city/town) with their revenge percentages(algorithm that helps maintain balance between high and low populated cities/towns and counties on highscores),</li>
+</br> <li><b>Other tab</b>: contains selection of county or town/city in order to view the top 100 players of that particular one (General + Daily)</li></ul>
 </br>+Daily Top 100 players of the Arta County</h3>
 </br>
 <img src="Revenge-Android-Screenshots/16.png" alt="hi" class="inline" height="400" width="266"/>
