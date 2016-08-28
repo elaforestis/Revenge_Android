@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.orestis.myapplication" >
+
+    <uses-sdk android:targetSdkVersion="11" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />!
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />!
+    -->
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Εκδίκηση"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="android.support.UI_OPTIONS"
+            android:value="splitActionBarWhenNarrow" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Εκδίκηση"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".signup"
+            android:label="@string/title_activity_signup"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".gameHomeScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_game_home_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".InGame"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_in_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".GameComplete"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_game_complete"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ExpandableListMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_expandable_list_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".about"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".profile"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".friends"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_friends"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".onNotificationClick"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_on_notification_click"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".highscores"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_highscores"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Top100"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Top100"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Top10nomoi"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Top10nomoi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Top100perioxes"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Top100perioxes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".otherHs"
+            android:label="@string/title_activity_other_hs"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name=".notificationManager"
+            android:exported="false" />
+
+        <activity
+            android:name=".selectHighscores"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_select_highscores"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".generalHighscores"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_general_highscores"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".generalTop100perioxes"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_general_top100perioxes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".generalTop10nomoi"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_general_top10nomoi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Chat"
+            android:label="@string/title_activity_chat"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Top100Daily"
+            android:label="@string/title_activity_top100_daily"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".highscoresAna"
+            android:label="@string/title_activity_highscores_ana"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Top100DailyPerioxis"
+            android:label="@string/title_activity_top100_daily_perioxis"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Top100DailyNomou"
+            android:label="@string/title_activity_top100_daily_nomou"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".otherHsGeneral"
+            android:label="@string/title_activity_other_hs_general"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Top100Perioxis"
+            android:label="@string/title_activity_top100_perioxis"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Top100Nomou"
+            android:label="@string/title_activity_top100_nomou"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".profileGeneral"
+            android:label="@string/title_activity_profile_general"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".profileDaily"
+            android:label="@string/title_activity_profile_daily"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".profileSearch"
+            android:label="@string/title_activity_profile_search"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>
