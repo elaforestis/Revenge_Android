@@ -9,7 +9,7 @@ Revenge is a western-themed game where players battle against each other, puttin
   </head>
 
   <body>
-  <h3>Welcome Activity</h3>
+  <h3>Welcome Activity (Log In - Signup - About)</h3>
   </br>
 <img src="Revenge-Android-Screenshots/11.png" alt="hi" class="inline"/>
 </br>
@@ -43,11 +43,11 @@ Revenge is a western-themed game where players battle against each other, puttin
 <img src="Revenge-Android-Screenshots/6.png" alt="hi" class="inline"/>
 <img src="Revenge-Android-Screenshots/7.png" alt="hi" class="inline"/>
 </br>
-<h3>Friend list with online tracking</h3>
+<h3>Friend list with online tracking + send friend request</h3>
 </br>
 <img src="Revenge-Android-Screenshots/8.png" alt="hi" class="inline"/>
 </br>
-<h3>Friend's Profile + Chat</h3>
+<h3>Friend's Profile with his Rankings + Chat</h3>
 </br>
 <img src="Revenge-Android-Screenshots/9.png" alt="hi" class="inline"/>
 <img src="Revenge-Android-Screenshots/10.png" alt="hi" class="inline"/>
